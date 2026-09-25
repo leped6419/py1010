@@ -3,7 +3,7 @@
 Arbeidskrav 1
 Beregning av årlig totalkostnad for elbil og bensinbil.
 Lene Kristin Pedersen (lenekp@gmail.com) (leped6419@usn.no)
-Oppdatert 2026.09.18
+Oppdatert 2026.09.25
 
 """
 
@@ -19,6 +19,7 @@ total_elbil = forsikring_elbil + tfa + drivstoff_elbil + bom_elbil  # [Totalpris
 total_bensinbil = forsikring_bensinbil + tfa + drivstoff_bensinbil + bom_bensinbil  # [Totalpris bensinbil pr år]
 diff = total_bensinbil - total_elbil  # [Differanse mellom elbil og bensinbil]
 
+print ("Antall km pr år: ", km)
 print ("Totalpris elbil =",total_elbil)
 print ("Totalpris bensinbil =",total_bensinbil)
 print ("Differanse mellom elbil og bensinbil =",diff)
